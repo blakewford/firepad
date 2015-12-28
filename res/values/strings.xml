@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MomentumActivity</string>
+    <string-array name="labels">
+    <item>OVERVIEW</item>
+    <item>STATION OPS</item>
+    </string-array>
+    <string-array name="content">
+    <item>
+WELCOME TO THE BRIDGE. THE PREFERRED WORKSPACE AND GUEST ACCOMIDATIONS AT THE FORD RESIDENCE.\n
+\n
+IN THIS MANUAL YOU WILL FIND THE BASIC DETAILS OF HOW VARIOUS SYSTEMS OPERATE.
+    </item>
+    </string-array>
+</resources>

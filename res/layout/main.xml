@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:weightSum="32"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<View
+    android:layout_weight="0.5"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"/>
+<ImageView
+    android:src="@drawable/logo"
+    android:layout_weight="1"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"/>
+<org.starlo.momentum.StopMotionViewPager
+    android:id="@+id/pager"
+    android:layout_weight="16"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"/>
+<LinearLayout
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:layout_weight="1"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp">
+<TextView
+    android:id="@+id/label"
+    android:background="@drawable/odd_rect"
+    android:layout_marginLeft="10dp"
+    android:textColor="#000000"
+    android:paddingLeft="15dp"
+    android:gravity="bottom"
+    android:layout_weight="3"
+    android:textSize="15sp"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"/>
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="#FFCC66"
+    android:weightSum="1"
+    android:layout_marginRight="10dp"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent">
+<ImageView
+    android:src="@*android:drawable/ic_media_play"
+    android:visibility="gone"
+    android:background="#FFCC66"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:id="@+id/play"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"/>
+<ImageView
+    android:src="@*android:drawable/ic_media_pause"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:background="#FFCC66"
+    android:id="@+id/pause"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>
+<View
+    android:layout_weight="0.25"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"/>
+<LinearLayout
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_weight="11.5"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp">
+<View
+    android:id="@+id/left_paddle"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/rect"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"/>
+<TextView
+    android:id="@+id/text"
+    android:textColor="#CC99FF"
+    android:textSize="25sp"
+    android:layout_weight="8.5"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"/>
+<View
+    android:id="@+id/right_paddle"
+    android:layout_weight="0.5"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"/>
+</LinearLayout>
+<ImageView
+    android:src="@drawable/logo"
+    android:layout_weight="1"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"/>
+</LinearLayout>
+
